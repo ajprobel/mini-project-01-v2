@@ -11,15 +11,22 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     background-color: rgb(62, 95, 73);
     height: 40px;
     border-bottom: 10px solid rgb(206, 169, 122);
     color: white;
+    padding-right: 20px;
 }
 
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(62, 95, 73);
-    height: 40px;
+    height: 50px;
     color: rgb(255, 241, 241);
     border-bottom: 10px solid rgb(49, 49, 49);
 }
